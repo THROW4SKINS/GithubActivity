@@ -27,6 +27,7 @@ docker-compose -p ecs189 up  &
 # WE first make it point at the right url, using the init.sh script
 
 sleep 10 && docker exec ecs189_proxy_1 /bin/bash /bin/init.sh
+
 # sleep 15 && docker exec ecs189_proxy_1 /bin/bash /bin/swap2.sh
 # sleep 10 && docker exec ecs189_proxy_1 /bin/bash /bin/swap1.sh
 echo "redirecting to the service"
