@@ -10,3 +10,7 @@
 pre {
     width: 80%;
 }
+
+.commit {
+    color: #ff0000;
+}
